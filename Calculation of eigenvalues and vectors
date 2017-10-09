@@ -1,1 +1,7 @@
 ### Now that we realized eigenvalues and eigenvectors can be pretty important for a symmetric square matrix, let us how to find them.
+We know that for eigenvalies $\lambda$ and (nonzero) eigenvectors __v__ the equation;
+$$Av = \lambda v$$
+Which amounts to $$Av - \lambda v = 0$$ or $$(A - \lambda I)v = 0$$  So the nonzero vector __v__ must be in the null space of $$(A-\lambda I)$$
+or that $$det(A - \lambda I) = 0$$ as otherwise v = 0.
+So for eigenvalues $\lambda$ $$det(A - \lambda I) = 0$$, and this equation is called the __characterisitc equation of the matrix A.
+e.g.
